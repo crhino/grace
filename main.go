@@ -11,9 +11,9 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/onsi/grace/handlers"
-	"github.com/onsi/grace/helpers"
-	"github.com/onsi/grace/routes"
+	"github.com/crhino/grace/handlers"
+	"github.com/crhino/grace/helpers"
+	"github.com/crhino/grace/routes"
 	"code.cloudfoundry.org/lager"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"
