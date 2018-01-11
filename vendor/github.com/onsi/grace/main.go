@@ -14,7 +14,7 @@ import (
 	"github.com/onsi/grace/handlers"
 	"github.com/onsi/grace/helpers"
 	"github.com/onsi/grace/routes"
-	"code.cloudfoundry.org/lager"
+	"github.com/pivotal-golang/lager"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"
 	"github.com/tedsuo/ifrit/http_server"

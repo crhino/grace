@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/onsi/grace/routes"
-	"code.cloudfoundry.org/lager"
+	"github.com/pivotal-golang/lager"
 	"github.com/tedsuo/rata"
 )
 
